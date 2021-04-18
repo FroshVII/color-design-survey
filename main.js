@@ -1,5 +1,5 @@
 /* state variables */
-var site_type = 'control';  // 'control' or 'dark'
+var site_type = (Math.floor(Math.random() * 2) == 0) ? 'dark' : 'control';  // 'control' or 'dark'
 
 var cur_page = 'preface';
 
